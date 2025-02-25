@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* ...............HEAD............... */
+
+
+    .header-logo {
+        width: 150px;
+        height: auto;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0px;
+		background-color: #AE0204;
+        padding-top: 30px;
+        padding-inline: 100px;
+        padding-bottom: 50px;        
+    }
+    
+    nav ul {
+        color: #faf6e9;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        font-family: 'glory', sans-serif;
+        font-weight: bold;
+        gap: 20px;
+    }
+    
+    .header-logo {
+        width: 150px;
+        height: auto;
+    }
+    
+    #header-info-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 150px;
+    }
+/* ..............MAIN BODY....................... */
+
+body .headen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AE0204;
+    padding: 60px;
+    padding-inline: 40px;
+    font-family: 'glory', sans-serif;
+    color: #faf6e9;
+
+}
+#connecting-logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-logo2 {
+    margin-bottom: 10px;
+	width:240px;
+	height: auto;
+}
+.submit-button{
+    background-color: #004B46;
+    border-radius: 5px;
+    color: #faf6e9;
+    border: none;
+    padding: 10px;
+    padding-inline: 40px;
+    font-family: 'glory', sans-serif;
+    margin-bottom: 10px;
+}
+
+div button{
+    background-color: #AE0204;
+    border-radius: 5px;
+    color: #faf6e9;
+    border: none;
+    padding: 10px;
+    padding-inline: 40px;
+    font-family: 'glory', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+#personal-links .linked-logo{
+    width: 18px;
+    height: auto;
+    
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20px;
+    height: 260px;
+    color: #004B46;
+}
+
+/* ................FORM Arreangement....................... */
+#form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form input, textarea{
+    width:250px; 
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #ae020516;
+}
+
+form textarea{
+    width:250px; 
+    height: 120px;
+    font-size: smaller;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #ae020516;
+}
+
+
+/* ......................END..................................... */
+
+main section p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ...............MAIN BODY POSITIONING.................. */
+#down-section-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 88px;
+    gap: 50px;
+}
+
+main{
+    background-color: #faf6e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: #004B46;
+    text-align: center;
+    color:#faf6e9;
+    padding: 20px;
+}
