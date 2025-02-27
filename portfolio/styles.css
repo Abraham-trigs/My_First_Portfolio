@@ -3,21 +3,33 @@
     padding: 0;
     box-sizing: border-box;
     }
-/* ...............HEAD............... */
-
+/* ...............HEADER............... */
 header{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 0px;
-	background-color: #faf6e9;
+	background-color: #AE0204;
 	padding-top: 30px;
 	padding-inline: 100px;
 	padding-bottom: 100px;
-	
-	
+	margin: 0px;
 }
+
+.top-nav{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	justify-content: space-between;
+	gap: 190px;
+	margin-bottom: 100px;
+}
+
+/* ............................................................. */
+
+.header-logo {
+	width: 150px;
+	height: auto;
+}
+
+/* ............................................................. */
+
 
 nav ul {
 	list-style: none;
@@ -25,195 +37,223 @@ nav ul {
 	flex-direction: row;
 	font-family: 'glory', sans-serif;
 	font-weight: bold;
-	gap: 20px;
+	gap: 10px;
 }
 
-.header-logo {
-	width: 150px;
+nav ul a {
+	text-decoration: none;
+	padding: 6px;
+	padding-inline: 13px;
+	color: #faf6e9;
+}
+
+nav ul a:hover{
+	padding: 6px;
+	padding-inline: 13px;
+	background-color: #680203;
+	border-radius: 3px;
+}
+
+/* ............................................................. */
+
+
+.greet{
+	text-align: center;
+	color: #faf6e9;
+	font-family: 'glory', sans-serif;
+	font-size: 1rem;
+	margin: 0px;
+}
+
+.greet h3 {
+	font-size: 2.5rem;
+}
+
+.greet h2{
+	font-size: 2.5rem;
+	color: #ffeaa6;
+}
+
+.greet p{
+	color: #efefef;
+	font-size: 1.2rem;
+	margin-top: 5px;
+}
+
+/* ...........BODY/MAIN/PICTURE................. */
+
+
+
+#my-picture {
+	width: 320px;
+	height: auto;
+}
+/* ............................................. */
+
+.button1{
+	background-color: #004B46;
+	color: #fffcf1;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+
+.button2{
+	background-color: #AE0204;
+	color: #fffcf1;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	font-family: 'glory', sans-serif;
+	font-weight: bold;
+}
+
+.mid-buttons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: 'glory', sans-serif;
+	gap: 40px;
+}
+
+/* ................................................. */
+
+
+#personal-links{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	gap: 20px;
+}
+/* ......................................................... */
+
+.linked-logo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 25px;
+	height: auto;
+}
+.mid{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mid-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #faf6e9;
+	padding-bottom: 80px;
+	padding-top: 50px;
+}
+
+.mid h1{
+	font-size: 3rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'glory', sans-serif;
+	margin-bottom: 20px;
+	font-weight: bolder;
+
+}
+
+.mid-wrapper{
+	display: flex;
+	flex-direction: row;
+	align-items: center;	
+	transform: scale(90%);		
+}
+
+
+/* ......................................................... */
+
+#projects-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'glory', sans-serif;
+	font-size: 4rem;
+	background-color: #004B46;
+	color: #ffeaa6;
+	padding-inline: 10px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+}
+.projects-header h1{
+	margin-top: 40px;
+}
+
+#projects-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+#fes-project img{
+	width: 290px;
 	height: auto;
 }
 
-/* ...........BODY/MAIN/ARTICLE.................. */
-	.greet{
-		/* margin-left: 180px; */
-		border-radius: 3px;
-		display: inline-block;
-		background-color: #004B46;
-		color: #fffcf1;
-		padding: 10px;
-		font-size: 0.5rem;
-		font-family: 'glory', sans-serif;
-	}
+#fes-project{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'glory', sans-serif;
+}
+#fes-project p{
+	text-align: justify;
+	margin: 70px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#fes-project {
+	margin: 0px, 0px 0px, 0px;
+}
+/* ......................................................................... */
 
-	.name-text {
-		text-align: center;
-		letter-spacing: 1px;
-		font-size: 1.8rem;
-		font-family: 'glory', sans-serif;
-		margin-top: 30px;
-	}
+#git-projects img{
+	width: 290px;
+	height: auto;
+}
 
-	#intro-text h3{
-		font-family: 'glory', sans-serif;
-		font-weight: lighter;
-		text-align: center;
-		line-height: 17px;
-		margin-top: 2px;
-		margin-bottom: 0;
-		font-size: 0.8rem;
-	}
+#git-projects h1 {
+	font-family: 'glory', sans-serif;
+}
+.projects{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
 
-	#my-picture {
-		width: 250px;
-		height: auto;
-		margin-top: 60px;
-		margin-bottom: 0px;
-		margin-right: 0px;
-		transform: scale(100%);
-		position: absolute;
-		transform: translate(180%, 2%);
+#git-projects span img {
+	width: 80px;
+	height: auto;
+}
 
-	}
-	#button-container {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		margin-top: 40px;
-		font-family: 'glory', sans-serif;
-		gap: 30px;
-	}
+#git-projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 60px;
+}
 
-	.button1{
-		background-color: #004B46;
-		color: #fffcf1;
-		padding: 10px;
-		border-radius: 5px;
-		border: none;
-		font-weight: bold;
-	}
+/* ................................................................... */
 
-	.button2{
-		background-color: #AE0204;
-		color: #fffcf1;
-		padding: 10px;
-		border-radius: 5px;
-		border: none;
-		font-family: 'glory', sans-serif;
-		font-weight: bold;
-	}
-	.linked-logo{
-		width: 18px;
-		height: auto;
-	}
-
-	#intro-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	
-	#personal-links{
-		display: flex;
-		flex-direction: row;
-		margin-top: 20px;
-		gap: 20px;
-	}
-
-	/* ..............INTRO ARREANGEMENT S++.................... */
-		#intro{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: relative;
-		}
-
-		#intro-wrapper{
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			/* justify-items: space-between; */
-			
-			
-		}
-
-		#article-1{
-			display: flex;
-			flex-direction: column;
-			align-items: center; 
-			background-color: #faf6e9;
-			padding-bottom: 30px;
-		}
-
-		.intro-positioner{
-			margin-right: 300px;
-		}
-
-		/* ................DOWN SECTION.................... */
-		#down-section{
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			background-color: #AE0204;
-			padding-top: 120px;
-			padding-inline: 70px;	
-			padding-bottom: 80px;
-
-			gap: 40px;
-
-		}
-		#down-section p{
-			font-family: 'glory', sans-serif;
-			font-weight: normal;
-			font-size: 1.2rem;
-			text-align: justify;
-			color: #faf6e9;
-		}
-
-		/* .............ASIDE............................ */
-		aside{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
+footer{
+	background-color: #004B46;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	color: white;
+}
 
 
-	table {
-		color: white;
-		width: 50%;
-		border-collapse: collapse;
-		margin: 20px 0;
-	}
-
-	th, td {
-		border: 1px solid rgb(255, 255, 255);
-		padding: 8px;
-		text-align: left;
-	}
-
-	th {
-		background-color: #012929;
-	}
-
-
-	aside{
-		background-color: #004B46;
-		padding-top: 30px;
-	}
-	aside div {
-		color: white;
-		text-align: center;
-		font-size: 1.4rem;
-	}
-
-
-	/* ..................FOOTER..................... */
-
-	footer{
-		background-color: #004B46;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding-top: 30px;
-		padding-bottom: 10px;
-		color: white;
-	}

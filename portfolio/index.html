@@ -4,70 +4,144 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap">
-  <title>Abraham Bortey Danfa Portfolio</title>
+  <title>Abraham Bortey Danfa's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- ......................................................... -->
   <header>
-    <img src="logo-on-plain-bg.png" alt="Personal Logo" class="header-logo">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
-      </ul>
-    </nav>
+
+    <div class="top-nav">
+      <img src="MyLogo.png" alt="Personal Logo" class="header-logo">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./aboutMe.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+        </ul>
+      </nav>  
+    </div>
+
+    <div class="greet">
+      <h3> Front-End Development Enthusiast.</h3>
+      <h2>Creative Graphic Designer.</h2>
+      <p>Blending creativity with technology to craft impactful digital experiences.</p>
+    </div>
+
   </header>
 
+  <!-- ................................................. -->
+
   <main>
-    <section id="intro-wrapper">
-      <div id="intro-container">
-        <div id="intro-text">
-          <h1 class="name-text">Abraham-Trigs Bortey Danfa</h1>
-          <h3>Creative Graphic Designer | Front-End Development Enthusiast</h3>
-          <p>Blending creativity with technology to craft impactful digital experiences.</p>
+    <div class="mid-container">
+      <div class="mid-wrapper">
+        <div class="mid">
+          <h1>Abraham Bortey Danfa</h1>
+    
+          <div class="mid-buttons">
+            <button class="button1">HIRE ME</button>
+            <button class="button2">VIEW PORTFOLIO</button>
+          </div>
+    
+          <div id="personal-links">
+            <a href="https://linkedin.com/in/abrahamdanfa" target="_blank">
+              <img src="linkedin-logo.png" alt="LinkedIn" class="linked-logo">
+            </a>
+    
+            <a href="https://twitter.com/yourhandle" target="_blank">
+              <img src="x-logo.png" alt="X" class="linked-logo">
+            </a>
+    
+            <a href="mailto:your-email@example.com">
+              <img src="gmail-logo.png" alt="Email" class="linked-logo">
+            </a>
+    
+            <a href="https://wa.me/yourphonenumber" target="_blank">
+              <img src="whatsapp.png" alt="WhatsApp" class="linked-logo">
+            </a>
+          </div>
         </div>
-        <div id="button-container">
-          <button class="button1">HIRE ME</button>
-          <button class="button2">VIEW PORTFOLIO</button>
-        </div>
-        <div id="personal-links">
-          <a href="https://linkedin.com/in/abrahamdanfa" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn"></a>
-          <a href="https://twitter.com/yourhandle" target="_blank"><img src="x-logo.png" alt="X"></a>
-          <a href="mailto:your-email@example.com"><img src="gmail-logo.png" alt="Email"></a>
-          <a href="https://wa.me/yourphonenumber" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
-        </div>
+    
+        <img src="abraham.jpg" alt="Abraham Bortey Danfa" id="my-picture">
       </div>
-      <img src="abraham.jpg" alt="Abraham Bortey Danfa" id="my-picture">
+    </div>
+    
+
+    <!-- ...................................................... -->
+
+    <!-- <section id="projects">
+      <h2>My GitHub Projects</h2>
+      <div class="projects-container">
+    
+        <div class="project-card">
+          <img src="project1-thumbnail.jpg" alt="Project 1 Screenshot">
+          <h3>Project 1</h3>
+          <p>A brief description of what the project does.</p>
+          <a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_1" target="_blank">View on GitHub</a>
+        </div>
+    
+        <div class="project-card">
+          <img src="project2-thumbnail.jpg" alt="Project 2 Screenshot">
+          <h3>Project 2</h3>
+          <p>Another project description.</p>
+          <a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_2" target="_blank">View on GitHub</a>
+        </div>
+    
+        <div class="project-card">
+          <img src="project3-thumbnail.jpg" alt="Project 3 Screenshot">
+          <h3>Project 3</h3>
+          <p>Short description of the project.</p>
+          <a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_3" target="_blank">View on GitHub</a>
+        </div>
+    
+        <div class="project-card">
+          <img src="project4-thumbnail.jpg" alt="Project 4 Screenshot">
+          <h3>Project 4</h3>
+          <p>Another exciting project.</p>
+          <a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_4" target="_blank">View on GitHub</a>
+        </div>
+    
+      </div>
+    </section> -->
+
+    <h1 id="projects-header">Projects</h1>
+
+    <section id="projects-container">
+      <div class="projects">
+
+        <section id="fes-project">
+          <h1> Personal Projects</h1>
+          <h2>FES-Manager</h2>
+          <p>FES-Manager is a Financial and Educational Support Management platform designed to enhance transparency, efficiency, and accountability in scholarship and funding distribution. The platform streamlines how donors, schools, and beneficiaries interact, ensuring that financial aid and educational resources are properly allocated and tracked.</p>
+          
+          <a href="./FES-welcompage.png" target="_blank">
+            <img src="FES-login-wireframe.png" alt="Design Samples">
+          </a>        
+          <!-- <p>If you’re looking for a dedicated professional ready to contribute, connect with me today!</p> -->
+        </section> 
+  
+        <section id="git-projects">
+          <h1>Shared Projects on GitHub</h1>
+  
+          <span class="alx-git">
+            <a href="https://github.com/Abraham-trigs" target="_blank">
+              <img src="ALX logo.webp" alt="Design Samples">
+    
+              <a href="https://github.com/Abraham-trigs" target="_blank">
+                <img src="github logo.png" alt="Design Samples">  
+  
+              </span>
+  
+          <a href="https://github.com/Abraham-trigs" target="_blank">
+            <img src="git-screenshort.PNG" alt="Design Samples">
+          </a>        
+          <!-- <p>If you’re looking for a dedicated professional ready to contribute, connect with me today!</p> -->
+        </section> 
+  
+      </div>
     </section>
 
-    <section id="projects">
-      <h2>Featured Projects</h2>
-      <p>Check out my work on design and front-end development.</p>
-      <img src="artwork-samples.png" alt="Design Samples">
-      <p>If you’re looking for a dedicated professional ready to contribute, connect with me today!</p>
-    </section>
-
-    <aside>
-      <h2>Structured and Styled Table</h2>
-      <p>My First Table Design</p>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Country</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>John</td><td>25</td><td>USA</td></tr>
-          <tr><td>Emily</td><td>28</td><td>Canada</td></tr>
-          <tr><td>Michael</td><td>32</td><td>Australia</td></tr>
-          <tr><td>Sophia</td><td>21</td><td>UK</td></tr>
-        </tbody>
-      </table>
-    </aside>
   </main>
 
   <footer>
@@ -75,3 +149,5 @@
   </footer>
 </body>
 </html>
+
+
