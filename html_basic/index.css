@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header & Navigation */
+header {
+    background: #0073e6;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #0073e6;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background: #0073e6;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
