@@ -1,259 +1,146 @@
+/* General Reset */
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-/* ...............HEADER............... */
-header{
-	background-color: #AE0204;
-	padding-top: 30px;
-	padding-inline: 100px;
-	padding-bottom: 100px;
-	margin: 0px;
 }
 
-.top-nav{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	align-items: center;
-	justify-content: space-between;
-	gap: 190px;
-	margin-bottom: 100px;
+/* Header */
+header {
+    background-color: #AE0204;
+    padding-top: 30px;
+    padding-inline: 100px;
+    padding-bottom: 100px;
+    margin: 0;
 }
 
-/* ............................................................. */
+.top-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 190px;
+    margin-bottom: 100px;
+}
 
 .header-logo {
-	width: 150px;
-	height: auto;
+    width: 150px;
+    height: auto;
 }
-
-/* ............................................................. */
-
 
 nav ul {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	font-family: 'glory', sans-serif;
-	font-weight: bold;
-	gap: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Glory', sans-serif;
+    font-weight: bold;
+    gap: 10px;
 }
 
-nav ul a {
-	text-decoration: none;
-	padding: 6px;
-	padding-inline: 13px;
-	color: #faf6e9;
+nav ul li a {
+    text-decoration: none;
+    padding: 6px 13px;
+    color: #faf6e9;
+    transition: background-color 0.3s ease;
 }
 
-nav ul a:hover{
-	padding: 6px;
-	padding-inline: 13px;
-	background-color: #680203;
-	border-radius: 3px;
+nav ul li a:hover {
+    background-color: #680203;
+    border-radius: 3px;
 }
 
-/* ............................................................. */
-
-
-.greet{
-	text-align: center;
-	color: #faf6e9;
-	font-family: 'glory', sans-serif;
-	font-size: 1rem;
-	margin: 0px;
+/* Greeting Section */
+.greet {
+    text-align: center;
+    color: #faf6e9;
+    font-family: 'Glory', sans-serif;
+    font-size: 1rem;
+    margin: 0;
 }
 
 .greet h3 {
-	font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
-.greet h2{
-	font-size: 2.5rem;
-	color: #ffeaa6;
+.greet h2 {
+    font-size: 2.5rem;
+    color: #ffeaa6;
 }
 
-.greet p{
-	color: #efefef;
-	font-size: 1.2rem;
-	margin-top: 5px;
+.greet p {
+    color: #efefef;
+    font-size: 1.2rem;
+    margin-top: 5px;
 }
 
-/* ...........BODY/MAIN/PICTURE................. */
-
-
-
-#my-picture {
-	width: 320px;
-	height: auto;
-}
-/* ............................................. */
-
-.button1{
-	background-color: #004B46;
-	color: #fffcf1;
-	padding: 10px;
-	border-radius: 5px;
-	border: none;
-	font-weight: bold;
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.button2{
-	background-color: #AE0204;
-	color: #fffcf1;
-	padding: 10px;
-	border-radius: 5px;
-	border: none;
-	font-family: 'glory', sans-serif;
-	font-weight: bold;
+section {
+    margin-bottom: 40px;
 }
 
-.mid-buttons {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	font-family: 'glory', sans-serif;
-	gap: 40px;
+section h2 {
+    font-family: 'Glory', sans-serif;
+    font-size: 2rem;
+    color: #AE0204;
+    margin-bottom: 10px;
 }
 
-/* ................................................. */
-
-
-#personal-links{
-	display: flex;
-	flex-direction: row;
-	margin-top: 20px;
-	gap: 20px;
-}
-/* ......................................................... */
-
-.linked-logo{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	width: 25px;
-	height: auto;
-}
-.mid{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+/* Projects Section */
+.project {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Glory', sans-serif;
 }
 
-.mid-container{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #faf6e9;
-	padding-bottom: 80px;
-	padding-top: 50px;
+.project img {
+    width: 290px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
-.mid h1{
-	font-size: 3rem;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: 'glory', sans-serif;
-	margin-bottom: 20px;
-	font-weight: bolder;
-
+.project p {
+    text-align: justify;
+    margin: 20px;
 }
 
-.mid-wrapper{
-	display: flex;
-	flex-direction: row;
-	align-items: center;	
-	transform: scale(90%);		
+/* Contact Section */
+#contact a {
+    color: #AE0204;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-
-/* ......................................................... */
-
-#projects-header {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-family: 'glory', sans-serif;
-	font-size: 4rem;
-	background-color: #004B46;
-	color: #ffeaa6;
-	padding-inline: 10px;
-	padding-top: 10px;
-	padding-bottom: 40px;
-	text-transform: uppercase;
-}
-.projects-header h1{
-	margin-top: 40px;
+#contact a:hover {
+    text-decoration: underline;
 }
 
-#projects-container{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 30px;
-	margin-bottom: 60px;
+/* Footer */
+footer {
+    background-color: #004B46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Glory', sans-serif;
 }
 
-#fes-project img{
-	width: 290px;
-	height: auto;
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
 }
 
-#fes-project{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-family: 'glory', sans-serif;
+footer a:hover {
+    text-decoration: underline;
 }
-#fes-project p{
-	text-align: justify;
-	margin: 70px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-#fes-project {
-	margin: 0px, 0px 0px, 0px;
-}
-/* ......................................................................... */
-
-#git-projects img{
-	width: 290px;
-	height: auto;
-}
-
-#git-projects h1 {
-	font-family: 'glory', sans-serif;
-}
-.projects{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-}
-
-#git-projects span img {
-	width: 80px;
-	height: auto;
-}
-
-#git-projects {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-right: 60px;
-}
-
-/* ................................................................... */
-
-footer{
-	background-color: #004B46;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 30px;
-	padding-bottom: 10px;
-	color: white;
-}
-
-
